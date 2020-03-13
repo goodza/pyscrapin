@@ -1,5 +1,5 @@
 from selenium import webdriver
-from flask import Flask, escape, request
+from flask import Flask, jsonify
 
 
 GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
@@ -18,8 +18,8 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
 	driver.get("https://mlcourse.ai/roadmap")
-	name = request.args.get("name",  len(driver.find_elements_by_tag_name('tbody')))
-    return f'Hello, {escape(name)}!'
+	return jsonify({"len":len(driver.find_elements_by_tag_name('tbody'))})
 
-	
+if __name__ == '__main__':
+    app.run()
 
