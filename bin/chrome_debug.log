@@ -1,0 +1,10 @@
+[0625/185558.840960:WARNING:resource_bundle.cc(368)] locale_file_path.empty() for locale 
+[0625/185558.851843:WARNING:resource_bundle.cc(368)] locale_file_path.empty() for locale 
+[0625/185558.857647:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+[0625/185558.877233:WARNING:histograms.cc(40)] Started multiple compositor clients (Browser, Renderer) in one process. Some metrics will be disabled.
+[0625/185615.861667:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://mlcourse.ai/roadmap' was loaded over HTTPS, but requested an insecure script 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'. This request has been blocked; the content must be served over HTTPS.", source: https://mlcourse.ai/roadmap (0)
+[0625/185615.862820:INFO:CONSOLE(106)] "Uncaught ReferenceError: MathJax is not defined", source: https://mlcourse.ai/roadmap (106)
+[0625/185636.751524:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://mlcourse.ai/roadmap' was loaded over HTTPS, but requested an insecure script 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'. This request has been blocked; the content must be served over HTTPS.", source: https://mlcourse.ai/roadmap (0)
+[0625/185636.752775:INFO:CONSOLE(106)] "Uncaught ReferenceError: MathJax is not defined", source: https://mlcourse.ai/roadmap (106)
+[0625/185644.275004:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://mlcourse.ai/roadmap' was loaded over HTTPS, but requested an insecure script 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'. This request has been blocked; the content must be served over HTTPS.", source: https://mlcourse.ai/roadmap (0)
+[0625/185644.275462:INFO:CONSOLE(106)] "Uncaught ReferenceError: MathJax is not defined", source: https://mlcourse.ai/roadmap (106)
