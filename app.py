@@ -7,6 +7,7 @@ CHROMEDRIVER_PATH = '/root/.pyenv/shims/chromedriver'
 
 chrome_options = webdriver.ChromeOptions()
 
+
 options = webdriver.ChromeOptions()
 options.binary_location = "./bin/headless-chromium"
 options.add_argument("--headless")
